@@ -1,0 +1,20 @@
+
+.visual-indicator { 
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.beat-indicator.active:first-of-type {
+    border-color:bisque;
+}
+
+.beat-indicator {
+    background-color: #efefef;
+    color: #aaa;
+    transition: all 0.15s ease-out;
+}
+
+.beat-indicator.active {
+    background-color: #fff;
+    color: #222;
+    border-color: #52a7e0;
+}
