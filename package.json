@@ -1,0 +1,29 @@
+{
+  "name": "presto-gb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "presto-gb",
+  "author": "Erik de Groot",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^5.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.6",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
+    "typescript": "^5.1.3"
+  }
+}
